@@ -29,4 +29,8 @@ public class Visit extends BaseEntitiy {
     private  Pet pet;
 
 
+    public LocalDate getDate() {
+        return date;
+    }
+
 }
